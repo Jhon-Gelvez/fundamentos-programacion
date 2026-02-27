@@ -1,8 +1,12 @@
-//** solicitamos la temperatura en celsius  */
-let celsius = parseFloat(prompt("Por favor, ingrese la temperatura en grados Celsius:"));
+//**solicitamos las tres notas*/
+let nota1 =Number(prompt("introduce la primera nota:"));
+let nota2 = Number(prompt("introduce la segunda nota:"));
+let nota3 = Number(prompt("introduce la tercera nota:"));
 
-//** definimos la variable en Fahrenheit */
-let fahrenheit = (celsius * 9 / 5) + 32;
+//**calculamos el promedio*/
+let promedio = (nota1 + nota2 + nota3) / 3;
 
-//** mostramos el resultado de la temperatura cambiada */
-console.log(celsius + " grados Celsius equivalen a " + fahrenheit + " grados Fahrenheit.");
+//**por ultimo mostramos el resultado*/
+alert("el promedio total de las notas es: " + promedio);
+console.log("promedio final, promedio");
+
